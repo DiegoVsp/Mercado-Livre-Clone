@@ -1,9 +1,10 @@
 import React from 'react';
 
-import tshirtImage from '../../assets/tshirt.png';
+import foneImage from '../../assets/fone.png';
 
 import { Container, Row, Panel, Column, Gallery, Section, Description } from './styles';
 import SellerInfo from '../SellerInfo';
+import ProductAction from '../ProductAction';
 
 const Product: React.FC = () => {
   return (
@@ -15,14 +16,14 @@ const Product: React.FC = () => {
       <Panel>
         <Column>
           <Gallery>
-            <img src={tshirtImage} alt="T-Shirt" />
+            <img src={foneImage} alt="foneBluetooth" />
           </Gallery>
 
           <Info />
         </Column>
 
         <Column>
-          {/* <ProductAction /> */}
+          <ProductAction/>
           <SellerInfo/>
           <WarrantySection />
           <WarrantySection />
@@ -56,7 +57,7 @@ const Info = () => (
     <h2>Descrição</h2>
 
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquam consequatur nemo vitae blanditiis placeat quos molestias perspiciatis eveniet repudiandae? Rerum unde aspernatur in voluptatum optio amet itaque qui nihil.
+    Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Manduma pindureta quium dia nois paga.
       <br />
       <br />
     Itens inclusos: <br />
@@ -67,7 +68,7 @@ const Info = () => (
     - 1x LED <br />
 
       <br />
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam deserunt expedita incidunt eligendi nisi et ipsum maiores esse rem soluta. Ab mollitia eveniet sequi, esse iure dolor quae. Sit, numquam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum enim ea laboriosam tempora ad dignissimos modi architecto nam quas eius sequi facere provident, dolores nobis expedita et! Iste, aspernatur necessitatibus!
+      Mussum Ipsum, cacilds vidis litro abertis. A ordem dos tratores não altera o pão duris. Quem num gosta di mé, boa gentis num é. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Diuretics paradis num copo é motivis de denguis.Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis. A ordem dos tratores não altera o pão duris. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!
     </p>
   </Description>
 )

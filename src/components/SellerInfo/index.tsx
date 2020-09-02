@@ -44,12 +44,12 @@ const SellerInfo: React.FC = () => {
 
           <div>
             <strong><SupportIcon/></strong>
-            <span>Presta um atendimento</span>
+            <span>Presta <br/> um bom atendimento</span>
           </div>
 
           <div>
             <strong><ClockIcon/></strong>
-            <span>vendas nos últimos 4 meses</span>
+            <span>Entrega os produtos dentro do prazo</span>
           </div>
         </ReputationRow>
       </ReputationCard>
