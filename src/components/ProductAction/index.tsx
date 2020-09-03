@@ -53,7 +53,7 @@ const ProductAction: React.FC = () => {
        </div>
      </MethodCard>
      <Actions>
-       <Button >Comprar agora</Button>
+       <Button solid >Comprar agora</Button>
        <Button >Adicionar ao carrinho</Button>
      </Actions>
 
